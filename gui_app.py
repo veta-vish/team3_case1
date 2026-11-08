@@ -68,8 +68,7 @@ with col2:
 st.info(f"📍 Платёж будет направлен в: **{selected_service['display']}**")
 st.write("---")
 
-# Технические данные, которые пациент не видит, но они нужны программе
-recipient = "clinic_medservice" # По умолчанию оплачиваем головной клинике
+# Технические данные
 currency = "RUB"
 
 # Кнопка оплаты
@@ -77,7 +76,7 @@ if st.button("Оплатить"):
     # Собираем данные для отправки в нашу логику
     payload = {
         "order_id": st.session_state.order_id,
-        "recipient": recipient,
+        "recipient": recipient, 
         "purpose": purpose,
         "amount": str(amount),
         "currency": currency,
@@ -90,8 +89,10 @@ if st.button("Оплатить"):
     errors = app.validate(payload, active_recipients, existing_orders, seen_idem)
     
     if errors:
-        # Если есть ошибки валидации (например, дубль заказа)
-        st.error("❌ Произошла ошибка при оплате. Пожалуйста, попробуйте позже.")
+        # Выводим причину ошибки
+        st.error("❌ Ошибка валидации данных:")
+        for field, code in errors:
+            st.warning(f"Поле **{field}**: `{code}`")
     else:
          # Эмуляция платежного шлюза
         status, error_code = app.emulate_gateway(payload["order_id"])
