@@ -1,0 +1,7 @@
+payment_id,order_id,recipient,purpose,amount,currency,status,error_code,idempotency_key,created_at,confirmed_at,correlation_id
+pay_demo_d30d,ord_e9d30d,clinic_medservice,Приём терапевта,2500.00,RUB,SUCCESS,,idem_79bbbbff,2026-11-06T19:35:56Z,2026-11-06T19:35:56Z,corr_d30d
+pay_demo_074d,ord_45074d,clinic_medservice,УЗИ,1800.00,RUB,SUCCESS,,idem_ad6ea133,2026-11-06T19:36:14Z,2026-11-06T19:36:14Z,corr_074d
+pay_demo_0b8f,ord_9d0b8f,clinic_medservice,Приём терапевта,2500.00,RUB,SUCCESS,,idem_6155fdc4,2026-11-07T10:41:53Z,2026-11-07T10:41:53Z,corr_0b8f
+pay_demo_a851,ord_89a851,clinic_medservice,Приём кардиолога,3000.00,RUB,SUCCESS,,idem_67e1ca78,2026-11-07T10:42:04Z,2026-11-07T10:42:04Z,corr_a851
+pay_demo_d5a0,ord_4cd5a0,clinic_medservice,Приём педиатра,2200.00,RUB,SUCCESS,,idem_754d34ed,2026-11-07T23:29:37Z,2026-11-07T23:29:37Z,corr_d5a0
+pay_demo_65ca,ord_2065ca,clinic_medservice,Физиотерапия,1500.00,RUB,SUCCESS,,idem_9caac515,2026-11-07T23:30:51Z,2026-11-07T23:30:51Z,corr_65ca
