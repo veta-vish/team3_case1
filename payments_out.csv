@@ -5,3 +5,13 @@ pay_demo_0b8f,ord_9d0b8f,clinic_medservice,Приём терапевта,2500.00
 pay_demo_a851,ord_89a851,clinic_medservice,Приём кардиолога,3000.00,RUB,SUCCESS,,idem_67e1ca78,2026-11-07T10:42:04Z,2026-11-07T10:42:04Z,corr_a851
 pay_demo_d5a0,ord_4cd5a0,clinic_medservice,Приём педиатра,2200.00,RUB,SUCCESS,,idem_754d34ed,2026-11-07T23:29:37Z,2026-11-07T23:29:37Z,corr_d5a0
 pay_demo_65ca,ord_2065ca,clinic_medservice,Физиотерапия,1500.00,RUB,SUCCESS,,idem_9caac515,2026-11-07T23:30:51Z,2026-11-07T23:30:51Z,corr_65ca
+pay_demo_8d3b,ord_ee8d3b,clinic_medservice,Приём терапевта,2500.00,RUB,DECLINED,INSUFFICIENT_FUNDS,idem_66efd5ca,2026-11-08T09:28:06Z,,corr_8d3b
+pay_demo_341d,ord_a5341d,clinic_medservice_therapy,Приём терапевта,2500.00,RUB,DECLINED,CARD_DECLINED,idem_d089a564,2026-11-08T09:35:26Z,,corr_341d
+pay_demo_4e36,ord_294e36,clinic_medservice_pediatrics,Приём педиатра,2200.00,RUB,SUCCESS,,idem_d09dd82e,2026-11-08T09:35:50Z,2026-11-08T09:35:50Z,corr_4e36
+pay_demo_3cdf,ord_c93cdf,clinic_medservice_surgery,Приём хирурга,2700.00,RUB,SUCCESS,,idem_db1350ec,2026-11-08T09:36:03Z,2026-11-08T09:36:03Z,corr_3cdf
+pay_demo_3db8,ord_2e3db8,clinic_medservice_therapy,Приём терапевта,2500.00,RUB,DECLINED,CARD_DECLINED,idem_2e07d91e,2026-11-08T17:24:27Z,,corr_3db8
+pay_demo_85c8,ord_fa85c8,clinic_medservice_therapy,Приём терапевта,2500.00,RUB,SUCCESS,,idem_a840e403,2026-11-08T17:24:38Z,2026-11-08T17:24:38Z,corr_85c8
+pay_demo_7cf2,ord_2f7cf2,clinic_medservice_therapy,Приём терапевта,2500.00,RUB,SUCCESS,,idem_33a656dc,2026-11-08T17:24:58Z,2026-11-08T17:24:58Z,corr_7cf2
+pay_demo_d2f6,ord_d5d2f6,clinic_medservice_physio,Физиотерапия,1500.00,RUB,SUCCESS,,idem_771a5954,2026-11-08T17:25:53Z,2026-11-08T17:25:53Z,corr_d2f6
+pay_demo_1496,ord_ef1496,clinic_medservice_lab_blood,Анализ крови,1800.00,RUB,SUCCESS,,idem_b83d6245,2026-11-09T09:59:22Z,2026-11-09T09:59:22Z,corr_1496
+pay_demo_73eb,ord_7173eb,clinic_medservice_therapy,Приём терапевта,2500.00,RUB,SUCCESS,,idem_5a805fd9,2026-11-09T10:08:04Z,2026-11-09T10:08:04Z,corr_73eb
